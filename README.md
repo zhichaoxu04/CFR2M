@@ -1,2 +1,6 @@
-# CFR2M
-A novel interval estimation for R2-baed total mediation effect measure
+README
+================
+Zhichao Xu
+2023-10-09
+
+### CFR2M
