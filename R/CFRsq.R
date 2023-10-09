@@ -2,7 +2,7 @@
 #'
 #' Calculate the test statistic and p-value for interval-censored competing risks SKAT.
 #'
-#' @param leftDmat n*(p+nknots+2) design matrix for left end of interval.
+#' @param leftDmat n*(p+nknots+2) design matrix for left end of
 #' @param rightDmat n*(p+nknots+2) design matrix for right end of interval.
 #' @param leftTimes n*1 vector of left side of interval times.
 #' @param deltaVec n*1 vector of the event cause (cause 1 or 2; or right-censored 0).
@@ -31,7 +31,7 @@
 #' @examples
 #' n <- 30000
 #' q <- 500
-hello <- function() {
+CFRsq <- function() {
   print("Hello, world!!")
 }
 
