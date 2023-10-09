@@ -1,6 +1,4 @@
-README
+CFR2M
 ================
-Zhichao Xu
-2023-10-09
 
-### CFR2M
+## CFR2M
