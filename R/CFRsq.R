@@ -1,4 +1,4 @@
-#' CFRsq.R
+#' genDat.R
 #'
 #' Calculate the test statistic and p-value for interval-censored competing risks SKAT.
 #'
@@ -31,7 +31,7 @@
 #' @examples
 #' n <- 30000
 #' q <- 500
-CFRsq <- function() {
+genDat <- function() {
   print("Hello, world!!")
 }
 
