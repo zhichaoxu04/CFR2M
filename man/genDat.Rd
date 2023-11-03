@@ -4,7 +4,7 @@
 \alias{genDat}
 \title{genDat.R}
 \usage{
-genDat()
+genDat(alpha, beta, r = 3, N, p0, p1, p2, p3, CorM, corMat = NULL)
 }
 \arguments{
 \item{leftDmat}{n*(p+nknots+2) design matrix for left end of}
@@ -41,6 +41,16 @@ A list with the elements:
 Calculate the test statistic and p-value for interval-censored competing risks SKAT.
 }
 \examples{
-n <- 30000
-q <- 500
+p0 <- 20
+p1 <- 20
+p2 <- 20
+p3 <- 40
+alpha <- c(rnorm(p0, mean = 0, sd = 1.5), rep(0, p1), 
+rnorm(p2, mean = 0, sd = 1.5), rep(0, p3))
+beta <- c(rnorm(p0, mean=0, sd=1.5),
+rnorm(p1, mean=0, sd=1.5), rep(0, p2+p3))
+r <- 1
+CorM <- 3
+TrueR2Cal(alpha,beta,r=3,p0,p1,p2,p3,CorM,LargeSam=F)
+TrueR2Cal(alpha,beta,r=3,p0,p1,p2,p3,CorM,LargeSam=T)
 }
