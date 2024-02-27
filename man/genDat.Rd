@@ -4,7 +4,20 @@
 \alias{genDat}
 \title{genDat.R}
 \usage{
-genDat(alpha, beta, r = 3, N, p0, p1, p2, p3, CorM, corMat = NULL)
+genDat(
+  alpha,
+  beta,
+  r = 3,
+  res.sd = 1,
+  N,
+  p0,
+  p1,
+  p2,
+  p3,
+  CorM,
+  corMat = NULL,
+  seed = 1
+)
 }
 \arguments{
 \item{leftDmat}{n*(p+nknots+2) design matrix for left end of}
@@ -45,12 +58,12 @@ p0 <- 20
 p1 <- 20
 p2 <- 20
 p3 <- 40
+N <- 1000
 alpha <- c(rnorm(p0, mean = 0, sd = 1.5), rep(0, p1), 
 rnorm(p2, mean = 0, sd = 1.5), rep(0, p3))
 beta <- c(rnorm(p0, mean=0, sd=1.5),
 rnorm(p1, mean=0, sd=1.5), rep(0, p2+p3))
 r <- 1
 CorM <- 3
-TrueR2Cal(alpha,beta,r=3,p0,p1,p2,p3,CorM,LargeSam=F)
-TrueR2Cal(alpha,beta,r=3,p0,p1,p2,p3,CorM,LargeSam=T)
+genDat(alpha,beta,r=3,p0,p1,p2,p3,CorM,LargeSam=F)
 }
