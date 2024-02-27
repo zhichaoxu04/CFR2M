@@ -47,7 +47,8 @@
 #' @export
 #' @examples
 #' data(data)
-#' R2M(Y=data$Y, M=data[, 3:52], X=data$X, FDR=FALSE)
+#' Result <- R2M(Y=data$Y, M=data[, 3:52], X=data$X, FDR=FALSE)
+#' print(Result$output)
 R2M <- function(Y, M, Covar=NULL, X, iter.max=3, nsis=NULL, seed=2024, FDR=FALSE, FDRCutoff=0.2, method="iSIS"){
   
   # Set Seed for reproducibility

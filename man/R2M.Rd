@@ -69,5 +69,6 @@ A more efficient two-stage cross-fitted estimation procedure for the R-squared m
 }
 \examples{
 data(data)
-R2M(Y=data$Y, M=data[, 3:52], X=data$X, FDR=FALSE)
+Result <- R2M(Y=data$Y, M=data[, 3:52], X=data$X, FDR=FALSE)
+print(Result$output)
 }
