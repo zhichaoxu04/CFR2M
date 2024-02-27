@@ -65,7 +65,7 @@ TrueR2Cal <- function(alpha,beta,r=3,p0,p1,p2,p3,CorM,corMat=NULL,LargeSam=TRUE)
     SOS.true <- 0
   }else if(LargeSam == TRUE){
     set.seed(1)
-    N_large <- 100000
+    N_large <- 1000000
     x_large <- stats::rnorm(N_large) # Generate the same x
     M_large <- matrix(0, nrow = N_large, ncol = p)
     
