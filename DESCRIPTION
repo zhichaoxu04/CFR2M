@@ -16,5 +16,4 @@ Depends:
 Imports:
   HDMT,
   SIS,
-  dplyr,
-  MASS
+  dplyr
