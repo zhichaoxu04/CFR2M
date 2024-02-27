@@ -68,6 +68,6 @@ A list with the three elements:
 A more efficient two-stage cross-fitted estimation procedure for the R-squared measure in the presence of high-dimensional omics mediators.
 }
 \examples{
-data(exampleData)
-R2M(Y=exampleData$study4$Y, M=exampleData$study4[, 3:52], X=exampleData$study4$X, FDR=FALSE)
+data(data)
+R2M(Y=data$Y, M=data[, 3:52], X=data$X, FDR=FALSE)
 }
