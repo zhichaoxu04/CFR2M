@@ -1,4 +1,4 @@
-CFR2M: Interval Estimation for R2-based Mediation Effect of High-dimensional Mediators via Cross-fitting
+CFR2M: Efficient Interval Estimation for High-dimensional Cross-fitting R2-based Mediation Effect
 ================
 
 The [CFR2M](https://github.com/zhichaoxu04/CFR2M) `R` package constructs confidence intervals based on the newly-derived closed-form asymptotic distribution of the R-squared measure.
