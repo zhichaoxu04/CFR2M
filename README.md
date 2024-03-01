@@ -13,7 +13,7 @@ To avoid potential bias, we perform iterative Sure Independence Screening (iSIS)
 
     git clone https://github.com/zhichaoxu04/CFRM2.git
 
-- Or, install [MetaR2M](https://github.com/zhichaoxu04/CFRM2) package in R directly
+- Or, install [CFRM2](https://github.com/zhichaoxu04/CFRM2) package in R directly
 
   - First, install [devtools](https://devtools.r-lib.org) in R from CRAN:
     ``` r
