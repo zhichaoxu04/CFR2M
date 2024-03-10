@@ -1,6 +1,10 @@
 CFR2M: Efficient interval estimation for high-dimensional Cross-Fitting R2-based Mediation effect
 ================
 
+> [!IMPORTANT]  
+> For more details, please refer to our paper [Xu et al (2023)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9934518/).
+
+
 The [CFR2M](https://github.com/zhichaoxu04/CFR2M) `R` package constructs confidence intervals based on the newly-derived closed-form asymptotic distribution of the R-squared measure.
 To avoid potential bias, we perform iterative Sure Independence Screening (iSIS) and False Discovery Rate (FDR) control in two subsamples to exclude the non-mediators, followed by ordinary least squares (OLS) regressions for the variance estimation.
 
