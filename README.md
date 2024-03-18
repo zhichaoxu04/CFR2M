@@ -2,7 +2,7 @@ CFR2M: Efficient interval estimation for high-dimensional Cross-Fitting R2-based
 ================
 
 > [!IMPORTANT]  
-> For more details, please refer to our preprint [Speeding up interval estimation for R2-based mediation effect of high-dimensional mediators via cross-fitting](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9934518/).
+> For more details, please refer to our preprint [Speeding up interval estimation for R2-based mediation effect of high-dimensional mediators via cross-fitting](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9934518/). For the code used to perform simulations or real data analysis in the paper, please refer to [CFR2M-paper](https://github.com/zhichaoxu04/CFR2M-paper).
 
 
 The [CFR2M](https://github.com/zhichaoxu04/CFR2M) `R` package constructs confidence intervals based on the newly-derived closed-form asymptotic distribution of the R-squared measure.
