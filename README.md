@@ -15,7 +15,7 @@ To avoid potential bias, we perform iterative Sure Independence Screening (iSIS)
 
 <!-- -->
 
-    git clone https://github.com/zhichaoxu04/CFRM2.git
+    git clone https://github.com/zhichaoxu04/CFR2M.git
 
 - Or, install [CFR2M](https://github.com/zhichaoxu04/CFR2M) package in R directly
 
