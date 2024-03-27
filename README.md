@@ -34,5 +34,5 @@ To avoid potential bias, we perform iterative Sure Independence Screening (iSIS)
   - [HDMT](https://cran.r-project.org/web/packages/HDMT/index.html): A multiple-testing procedure for high-dimensional mediation hypotheses. Mediation analysis is of rising interest in epidemiology and clinical trials. Methods used in the package refer to [James Y. Dai, Janet L. Stanford & Michael LeBlanc (2020)](https://www.tandfonline.com/doi/full/10.1080/01621459.2020.1765785).
   - [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html): A Grammar of Data Manipulation: a fast, consistent tool for working with data frame like objects, both in memory and out of memory.
 
-- CFR2M is also available in the R package [RsqMed](https://cran.r-project.org/web/packages/RsqMed/index.html).
+- [CFR2M](https://github.com/zhichaoxu04/CFR2M) is also available in the R package [RsqMed](https://cran.r-project.org/web/packages/RsqMed/index.html).
 
