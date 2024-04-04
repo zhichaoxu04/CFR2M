@@ -11,6 +11,13 @@ To avoid potential bias, we perform iterative Sure Independence Screening (iSIS)
 <div align="center"><img src="man/Figure/CF_OLS.gif" ></div>
 </br>
 
+
+# R2-based total mediation effect measure
+$R^2_{Med}$ is defined as the variance of the outcome variable that is common to both exposure and mediators or taking a step further, explained by the exposure through the mediators. $R^2_{Med}$ is essentially an additive function of the variance of the outcome explained by the exposure, mediators, and exposure and mediators. 
+
+<div align="center"><img src="man/Figure/R2MCal.jpeg" ></div>
+</br>
+
 # Get started
 ### Download and install:
 
